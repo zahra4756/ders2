@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            font-weight: 900;
+            font-size: 900;
+            margin-left: 10px;
+        }
+        h3{
+             margin-left: 10px;
+        }
+        li{
+            list-style-type: none;
+            height: 25px;
+            width: 500px;
+        }
+        .mavi{
+            background-color: rgb(193, 231, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>List of bootcamp participants:</h1>
+
+    <h3>The list is randomly generated, any matches are randoml.</h3>
+
+    <div>
+        <ul>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li>
+            <li class="mavi">Andrey Sitnik</li>
+            <li>Andrey Sitnik</li> 
+        </ul>
+    </div>
+
+    <script>
+        let yeni = document.createElement("li");
+        yeni.textContent = "yeni isim!!!!!!!!!!!!";
+        console.log(yeni);
+
+        let ul = document.querySelector("ul");
+        ul.append(yeni);
+
+        yeni.style.backgroundColor = "rgb(193, 231, 255)"
+    </script>
+</body>
+</html>
